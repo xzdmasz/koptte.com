@@ -146,7 +146,7 @@ section {
 }
 
 .home .row .image img {
-    height: 45rem;
+    height: 47rem;
     animation: float 4s linear infinite;
 }
 
@@ -317,13 +317,13 @@ section {
 
 .gallery-slider {
     width: 85%;
-    height: 520px; /* Adjust height as needed */
+    height: 525px; 
 }
 
 .gallery-slider img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures images cover the area without distortion */
+    object-fit: cover; 
 }
 
 /* Kontak */
