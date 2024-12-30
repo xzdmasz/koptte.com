@@ -69,7 +69,6 @@ section {
 
 .btn:hover {
     border-radius: var(--border-radius-hover);
-    border: var(--border-hover);
 }
 
 /* HEADER */
@@ -264,7 +263,7 @@ section {
 
 /* MENU */
 .menu {
-    background: url(../image/menu-bg.jpg) no-repeat;
+    background: url(../image/bg-home10.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -326,10 +325,11 @@ section {
     height: 100%;
     object-fit: cover; /* Ensures images cover the area without distortion */
 }
+
 /* Kontak */
 
 .book {
-    background: url(../image/book-bg.jpg);
+    background: url(../image/bg-home10.png);
     background-position: center;
     background-size: cover;
     margin-top: 40px;
@@ -415,11 +415,22 @@ section {
 
 .contact-form {
     flex: 1;
+    
 }
 
 .contact-form form {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    background: none;
+    text-transform: none;
+    color: var(--main-color);
+    border: var(--border);
+    margin: .7rem 0;
+
 }
 
 .contact-form .box {
