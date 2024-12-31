@@ -117,6 +117,9 @@ section {
 
 .navbar a:hover {
     color: #222;
+    background-color: grey; 
+    padding: 2px ; 
+    border-radius:5px;
 }
 /* HOME */
 
