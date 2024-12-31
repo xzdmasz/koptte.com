@@ -121,6 +121,22 @@ section {
     padding: 2px ; 
     border-radius:5px;
 }
+.cart-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem; 
+}
+
+.cart-image {
+    width: 40px; 
+    height: auto; 
+    cursor: pointer; 
+}
+
+.cart-image:hover {
+    transform: scale(1.1); 
+    transition: transform 0.2s; 
+}
 /* HOME */
 
 .home {
@@ -280,7 +296,7 @@ section {
 }
 
 .menu-item {
-    flex: 1 1 30%; /* Mengatur lebar item menu */
+    flex: 1 1 30%; 
     text-align: center;
     border: var(--border);
     border-radius: var(--border-radius);
@@ -305,7 +321,24 @@ section {
 }
 
 .menu-item:hover {
-    transform: scale(1.05); /* Efek hover */
+    transform: scale(1.05); 
+}
+.add-to-cart-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #333; 
+    transform: scale(1.05); 
 }
 
 /* Gallery */
